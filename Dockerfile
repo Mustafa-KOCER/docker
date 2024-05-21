@@ -8,5 +8,7 @@ RUN apt-get install -y python3
 COPY . /app
 WORKDIR /app
 # Çalıştırılabilir komutu belirtin
+
+
 CMD ["python3", "app.py"]
 
